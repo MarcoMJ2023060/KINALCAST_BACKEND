@@ -1,0 +1,44 @@
+{
+  "name": "kinal.cast",
+  "version": "1.0.0",
+  "description": "Backend, haciendo uso de express y nodeJs para KinalCast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "backend",
+    "nodeJs",
+    "kinalCast"
+  ],
+  "author": "Marco Bolaños",
+  "license": "MIT",
+  "dependencies": {
+    "argon2": "^0.41.1",
+    "axios": "^1.8.3",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.2.0",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.1.0",
+    "joi": "^17.12.3",
+    "jsonwebtoken": "^9.0.2",
+    "kinal.cast": "file:",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.12.1",
+    "morgan": "^1.10.0",
+    "public-ip": "^6.0.2",
+    "socket.io": "^4.7.5",
+    "uninstall": "^0.0.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "type": "module"
+}
